@@ -15,7 +15,7 @@ Deliverable: {{DELIVERABLE}}
 4. Read only relevant library documents; cite their paths. Avoid loading the entire library unnecessarily.
 5. Propose responsibilities, stages, tools, context and handoff strategy, verification, stop conditions and resource budgets.
 6. Distinguish confirmed capabilities, assumptions and unavailable features. Provide fallbacks.
-7. Before modifying persistent instructions, permissions, external systems or destructive state, show the concrete change list and request approval.
+7. Before modifying persistent instructions, inspect existing rules and confirm the change is within the user's authorized scope. Request approval for new or materially broader persistent changes, permission changes, destructive actions, or external side effects not already authorized. Do not repeatedly request approval for the same explicitly authorized reversible work.
 8. After approval, apply only permitted changes, verify outcomes and report evidence, remaining risks and next steps.
 
 Output: task and acceptance criteria; capability inventory; recommended architecture and rationale; selected patterns and references; proposed configuration; verification and resource budget; approvals needed.
