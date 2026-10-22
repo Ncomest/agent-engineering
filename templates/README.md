@@ -1,5 +1,6 @@
 # Prompt library
 
+- [Agent instruction contract](agent-instruction-contract.md) — reusable project-level operating rules and manual adherence probes; start here when configuring agent behavior.
 - [Worker contract](worker-contract.md)
 - [Independent reviewer](reviewer.md)
 - [Session handoff](handoff.md)
