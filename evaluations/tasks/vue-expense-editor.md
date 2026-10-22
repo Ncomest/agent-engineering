@@ -38,3 +38,6 @@ This is a **proposed benchmark**, not a claim that an experiment has been execut
 
 ## Prepared isolated fixture
 An intentionally incomplete Vue 3 + TypeScript fixture has been published on branch [`benchmark/vue-expense-fixture`](https://github.com/Ncomest/agent-engineering/tree/benchmark/vue-expense-fixture/benchmark-fixture). The branch's fixture creation commit is `dfb9ce31aa07415847e8745a182ab4d2e3acbb3d`. Use that exact commit for both baseline and variant runs, after verifying dependency installation and tests. This does not imply any benchmark has been executed.
+
+## Fixture validation gate (2026-10-22)
+A GitHub Actions workflow has been added to the fixture branch at `.github/workflows/vue-expense-fixture.yml` for install, typecheck, unit tests and build. A successful CI run and committed dependency lockfile are **not yet verified**. The earlier fixture commit is a source snapshot only; after CI passes and dependencies are locked, record a **new immutable benchmark baseline commit** and use it for both variants. Do not run or report an A/B comparison against an unvalidated fixture.
