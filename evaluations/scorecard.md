@@ -9,3 +9,6 @@ Record task, difficulty, platform/model/version, prompts, baseline and variant w
 - Context: repeated reads, handoffs, recovery accuracy.
 
 Do not claim savings without comparable measurements. Missing metrics are unavailable, not zero. Repeat trials when model variability matters. Evaluate the integrated output, not just individual workers.
+
+## Reproducible protocol
+Follow [evaluation protocol](protocol.md) to define fixed tasks, comparable baselines, run records, evidence and promotion criteria before making efficiency claims.
