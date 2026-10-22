@@ -4,6 +4,7 @@
 - [Scorecard](scorecard.md): metric definitions.
 - [v0.2 readiness audit](release-readiness-v0.2.md): completed checks and open release gates.
 - [Vue expense editor task](tasks/vue-expense-editor.md): a proposed practical benchmark, not a completed run.
+- [Execution prompts](experiment-prompts.md): controlled baseline and Plan-and-Execute variants.
 - [Run data template](run-template.csv): one row per actual run; leave unavailable measurements as N/A.
 
 ## Running the first comparison
