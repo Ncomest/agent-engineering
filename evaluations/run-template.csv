@@ -1,0 +1,1 @@
+run_id,task_id,variant,fixture_repo,fixture_commit,platform,model_version,trial,started_at_utc,elapsed_seconds,input_tokens,output_tokens,cached_tokens,tool_calls,retries,checks_passed,checks_total,critical_defects,unauthorized_side_effects,artifact_url,logs_url,notes
