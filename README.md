@@ -11,6 +11,8 @@ Platform-neutral library for configuring and evaluating AI agents.
 
 ## Index
 - [Principles](knowledge/principles.md)
+- [Architecture decision guide](knowledge/architecture-decision-guide.md)
+- [Pattern taxonomy](knowledge/pattern-taxonomy.md)
 - [Patterns](patterns/README.md)
 - [Prompts](templates/README.md)
 - [Platform adapters](adapters/README.md)
