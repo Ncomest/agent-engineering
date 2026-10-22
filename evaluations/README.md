@@ -1,7 +1,8 @@
 # Evaluation workspace
 
 ## Priority: does the agent follow instructions?
-- [Instruction adherence checklist](instruction-adherence-checklist.md): lightweight manual checks of scope, verification honesty, approvals and untrusted inputs. No benchmark fixture required.
+- [Instruction adherence checklist](instruction-adherence-checklist.md): lightweight manual checks of scope, verification honesty, approvals, stopping and untrusted inputs. No benchmark fixture required.
+- [First agent trial pack](first-agent-trial.md): four small, copy-ready tasks for observing real behavior without a benchmark application.
 - [Scorecard](scorecard.md): metric definitions.
 
 ## Optional comparative benchmarks
