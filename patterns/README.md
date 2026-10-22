@@ -1,5 +1,7 @@
 # Pattern catalog
 
+See [Pattern taxonomy](../knowledge/pattern-taxonomy.md) and [Architecture decision guide](../knowledge/architecture-decision-guide.md) before selecting a pattern.
+
 ## Execution
 - [Plan-and-Execute](plan-and-execute.md)
 - ReAct, Prompt Chaining, Routing (planned)
@@ -14,6 +16,7 @@
 
 ## Context
 - [Checkpoint & Handoff](checkpoint-handoff.md)
-- RAG, Context Isolation (planned)
+- [Context Isolation](context-isolation.md)
+- [RAG](rag.md)
 
 Prefer the simplest adequate pattern. A pattern is not a guarantee of quality or savings.
