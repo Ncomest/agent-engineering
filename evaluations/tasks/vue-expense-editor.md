@@ -35,3 +35,6 @@ Use [protocol](../protocol.md) and [run template](../run-template.csv). Keep raw
 
 ## Caveats
 This is a **proposed benchmark**, not a claim that an experiment has been executed. To obtain credible results, provide an isolated fixture, run both variants on identical starting revisions, repeat trials when possible, and review outcomes independently.
+
+## Prepared isolated fixture
+An intentionally incomplete Vue 3 + TypeScript fixture has been published on branch [`benchmark/vue-expense-fixture`](https://github.com/Ncomest/agent-engineering/tree/benchmark/vue-expense-fixture/benchmark-fixture). The branch's fixture creation commit is `dfb9ce31aa07415847e8745a182ab4d2e3acbb3d`. Use that exact commit for both baseline and variant runs, after verifying dependency installation and tests. This does not imply any benchmark has been executed.
