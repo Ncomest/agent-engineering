@@ -17,6 +17,7 @@ Platform-neutral library for configuring and evaluating AI agents.
 - [Patterns](patterns/README.md)
 - [Prompts](templates/README.md)
 - [Platform adapters](adapters/README.md)
-- [Evaluation](evaluations/scorecard.md)
+- [Evaluation workspace](evaluations/README.md)
+- [Evaluation scorecard](evaluations/scorecard.md)
 
 Core guidance is platform-neutral; adapters are platform-specific. Never assume agent tools, memory, subagents or caching are available. Status: **v0.2 documentation candidate**; patterns, adapters and evaluation protocol are documented, but platform trials and comparable benchmarks are not yet verified. See [release readiness](evaluations/release-readiness-v0.2.md).
