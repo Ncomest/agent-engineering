@@ -8,10 +8,11 @@ Configure agents to reliably follow project instructions, respect scope, verify 
 ## Quick start
 1. Read [AGENT_BOOTSTRAP.md](AGENT_BOOTSTRAP.md).
 2. Adapt the [agent instruction contract](templates/agent-instruction-contract.md) to your project and platform; review existing instructions first.
-3. Provide the agent with access to this library or paste relevant excerpts.
-4. Request a capability inventory and the simplest adequate configuration proposal.
-5. Approve persistent changes and permissions before execution.
-6. Run the contract's manual adherence probes and record evidence; evaluate results using [scorecard](evaluations/scorecard.md).
+3. Choose a ready-to-adapt [platform template](templates/README.md) for Codex, Claude Code, Cursor, OpenCode or ChatGPT.
+4. Provide the agent with access to this library or paste relevant excerpts.
+5. Request a capability inventory and the simplest adequate configuration proposal.
+6. Approve persistent changes and permissions before execution.
+7. Review actual compliance with the [instruction adherence checklist](evaluations/instruction-adherence-checklist.md); record observed evidence rather than assuming compliance.
 
 ## Index
 - [Principles](knowledge/principles.md)
@@ -19,8 +20,9 @@ Configure agents to reliably follow project instructions, respect scope, verify 
 - [Pattern taxonomy](knowledge/pattern-taxonomy.md)
 - [Token Engineering](knowledge/token-engineering.md)
 - [Patterns](patterns/README.md)
-- [Prompts](templates/README.md)
+- [Ready-to-adapt instructions and prompts](templates/README.md)
 - [Platform adapters](adapters/README.md)
+- [Instruction adherence review](evaluations/instruction-adherence-checklist.md)
 - [Evaluation workspace (optional)](evaluations/README.md)
 - [Evaluation scorecard](evaluations/scorecard.md)
 
