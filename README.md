@@ -11,7 +11,7 @@ Configure agents to reliably follow project instructions, respect scope, verify 
 3. Choose a ready-to-adapt [platform template](templates/README.md) for Codex, Claude Code, Cursor, OpenCode or ChatGPT.
 4. Provide the agent with access to this library or paste relevant excerpts.
 5. Request a capability inventory and the simplest adequate configuration proposal.
-6. Approve persistent changes and permissions before execution.
+6. Review existing rules and authorize new or materially broader persistent changes and permission changes. Do not require repeated approval for already authorized reversible work.
 7. Review actual compliance with the [instruction adherence checklist](evaluations/instruction-adherence-checklist.md); record observed evidence rather than assuming compliance.
 
 ## Index
